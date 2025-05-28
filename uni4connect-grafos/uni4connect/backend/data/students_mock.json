@@ -1,0 +1,3073 @@
+[
+  {
+    "id": 1,
+    "nome": "Rodrigo da Mata",
+    "curso": "Direito",
+    "semestre": 8,
+    "tempoFormatura": 3.3,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Concursos Públicos",
+      "Setor Privado",
+      "Freelancer",
+      "Startups"
+    ],
+    "hobbies": [
+      "Fotografia",
+      "Gaming",
+      "Desenho",
+      "Filmes",
+      "Tocar Instrumento"
+    ],
+    "esportes": [
+      "Corrida",
+      "Tênis"
+    ],
+    "estiloMusical": "Sertanejo",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Amizades"
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "Sabrina Nascimento",
+    "curso": "Publicidade",
+    "semestre": 7,
+    "tempoFormatura": 2.8,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Pesquisa Acadêmica",
+      "Empreendedorismo",
+      "Setor Privado",
+      "Freelancer"
+    ],
+    "hobbies": [
+      "Artesanato",
+      "Gaming"
+    ],
+    "esportes": [
+      "Pilates",
+      "Basquete",
+      "Futebol"
+    ],
+    "estiloMusical": "Sertanejo",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais",
+      "Dates"
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "Dr. João Felipe Ferreira",
+    "curso": "Engenharia Civil",
+    "semestre": 8,
+    "tempoFormatura": 5.7,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Empreendedorismo",
+      "Concursos Públicos",
+      "Pesquisa Acadêmica",
+      "Setor Privado"
+    ],
+    "hobbies": [
+      "Gaming",
+      "Dança",
+      "Leitura"
+    ],
+    "esportes": [
+      "Pilates",
+      "Corrida"
+    ],
+    "estiloMusical": "Trap",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Dates"
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "Eloah Azevedo",
+    "curso": "Medicina",
+    "semestre": 7,
+    "tempoFormatura": 2.9,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Empreendedorismo",
+      "Startups",
+      "Concursos Públicos"
+    ],
+    "hobbies": [
+      "Gaming",
+      "Tocar Instrumento"
+    ],
+    "esportes": [
+      "Vôlei",
+      "Corrida"
+    ],
+    "estiloMusical": "Rock",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Dates",
+      "Oportunidades Profissionais",
+      "Amizades"
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "Daniel Freitas",
+    "curso": "Arquitetura",
+    "semestre": 7,
+    "tempoFormatura": 2.7,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Pesquisa Acadêmica",
+      "Freelancer"
+    ],
+    "hobbies": [
+      "Séries",
+      "Dança"
+    ],
+    "esportes": [
+      "Artes Marciais",
+      "Musculação",
+      "Futebol"
+    ],
+    "estiloMusical": "MPB",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 6,
+    "nome": "Dr. Lucas Gabriel da Paz",
+    "curso": "Arquitetura",
+    "semestre": 4,
+    "tempoFormatura": 1.1,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "ONGs",
+      "Pesquisa Acadêmica",
+      "Setor Privado",
+      "Startups"
+    ],
+    "hobbies": [
+      "Leitura",
+      "Filmes",
+      "Desenho"
+    ],
+    "esportes": [
+      "Natação"
+    ],
+    "estiloMusical": "Trap",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Amizades"
+    ]
+  },
+  {
+    "id": 7,
+    "nome": "Ana Sophia da Mata",
+    "curso": "Medicina",
+    "semestre": 3,
+    "tempoFormatura": 5.2,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Pesquisa Acadêmica",
+      "Freelancer",
+      "Consultoria",
+      "Estágio"
+    ],
+    "hobbies": [
+      "Filmes",
+      "Séries",
+      "Tocar Instrumento",
+      "Fotografia"
+    ],
+    "esportes": [
+      "Corrida"
+    ],
+    "estiloMusical": "Sertanejo",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 8,
+    "nome": "Heitor Gonçalves",
+    "curso": "Psicologia",
+    "semestre": 1,
+    "tempoFormatura": 5.5,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Concursos Públicos",
+      "ONGs"
+    ],
+    "hobbies": [
+      "Culinária",
+      "Dança",
+      "Artesanato",
+      "Fotografia"
+    ],
+    "esportes": [
+      "Tênis",
+      "Vôlei"
+    ],
+    "estiloMusical": "Pop",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Bar"
+    ],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais",
+      "Dates"
+    ]
+  },
+  {
+    "id": 9,
+    "nome": "Maitê Rocha",
+    "curso": "Design",
+    "semestre": 8,
+    "tempoFormatura": 4.4,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Empreendedorismo",
+      "Startups",
+      "ONGs",
+      "Concursos Públicos"
+    ],
+    "hobbies": [
+      "Filmes",
+      "Dança"
+    ],
+    "esportes": [
+      "Natação",
+      "Pilates",
+      "Corrida"
+    ],
+    "estiloMusical": "Eletrônico",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Parque"
+    ],
+    "tipoConexoesDesejadas": [
+      "Amizades",
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 10,
+    "nome": "Milena da Paz",
+    "curso": "Medicina",
+    "semestre": 2,
+    "tempoFormatura": 4.8,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "ONGs",
+      "Pesquisa Acadêmica",
+      "Consultoria",
+      "Empreendedorismo"
+    ],
+    "hobbies": [
+      "Artesanato",
+      "Filmes",
+      "Gaming",
+      "Culinária"
+    ],
+    "esportes": [
+      "Vôlei",
+      "Futebol"
+    ],
+    "estiloMusical": "Indie",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Rolê em Casa",
+      "Parque",
+      "Restaurante"
+    ],
+    "tipoConexoesDesejadas": [
+      "Amizades",
+      "Dates",
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 11,
+    "nome": "Vitor Hugo Melo",
+    "curso": "Administração",
+    "semestre": 1,
+    "tempoFormatura": 3.8,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Startups",
+      "Freelancer",
+      "Consultoria",
+      "Empreendedorismo"
+    ],
+    "hobbies": [
+      "Fotografia",
+      "Filmes",
+      "Artesanato"
+    ],
+    "esportes": [
+      "Tênis",
+      "Pilates"
+    ],
+    "estiloMusical": "Indie",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Cinema",
+      "Bar"
+    ],
+    "tipoConexoesDesejadas": [
+      "Amizades"
+    ]
+  },
+  {
+    "id": 12,
+    "nome": "Carolina Sales",
+    "curso": "Medicina",
+    "semestre": 8,
+    "tempoFormatura": 5.6,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Concursos Públicos",
+      "Consultoria"
+    ],
+    "hobbies": [
+      "Culinária",
+      "Fotografia",
+      "Dança"
+    ],
+    "esportes": [
+      "Tênis",
+      "Yoga",
+      "Futebol"
+    ],
+    "estiloMusical": "Sertanejo",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Dates",
+      "Amizades"
+    ]
+  },
+  {
+    "id": 13,
+    "nome": "Ana Julia Gomes",
+    "curso": "Psicologia",
+    "semestre": 2,
+    "tempoFormatura": 5.5,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Startups",
+      "Estágio",
+      "Freelancer",
+      "Setor Privado"
+    ],
+    "hobbies": [
+      "Artesanato",
+      "Filmes",
+      "Desenho",
+      "Gaming"
+    ],
+    "esportes": [
+      "Corrida",
+      "Vôlei"
+    ],
+    "estiloMusical": "Gospel",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Dates",
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 14,
+    "nome": "Paulo Sales",
+    "curso": "Direito",
+    "semestre": 9,
+    "tempoFormatura": 5.7,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Estágio",
+      "Consultoria",
+      "Concursos Públicos",
+      "Pesquisa Acadêmica"
+    ],
+    "hobbies": [
+      "Leitura",
+      "Artesanato",
+      "Gaming",
+      "Filmes"
+    ],
+    "esportes": [
+      "Basquete"
+    ],
+    "estiloMusical": "Pop",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Parque",
+      "Praia",
+      "Bar"
+    ],
+    "tipoConexoesDesejadas": [
+      "Dates",
+      "Amizades",
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 15,
+    "nome": "Maysa Caldeira",
+    "curso": "Medicina",
+    "semestre": 4,
+    "tempoFormatura": 2.1,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Concursos Públicos",
+      "Pesquisa Acadêmica",
+      "ONGs",
+      "Startups"
+    ],
+    "hobbies": [
+      "Séries",
+      "Desenho",
+      "Artesanato",
+      "Tocar Instrumento",
+      "Leitura"
+    ],
+    "esportes": [
+      "Artes Marciais"
+    ],
+    "estiloMusical": "Rock",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Praia",
+      "Restaurante"
+    ],
+    "tipoConexoesDesejadas": [
+      "Dates",
+      "Amizades",
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 16,
+    "nome": "Ian Duarte",
+    "curso": "Publicidade",
+    "semestre": 6,
+    "tempoFormatura": 2.4,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Concursos Públicos",
+      "Setor Privado",
+      "Consultoria"
+    ],
+    "hobbies": [
+      "Desenho",
+      "Fotografia",
+      "Tocar Instrumento",
+      "Culinária",
+      "Filmes"
+    ],
+    "esportes": [
+      "Basquete",
+      "Musculação"
+    ],
+    "estiloMusical": "Sertanejo",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Restaurante"
+    ],
+    "tipoConexoesDesejadas": [
+      "Amizades",
+      "Dates"
+    ]
+  },
+  {
+    "id": 17,
+    "nome": "André Pinto",
+    "curso": "Direito",
+    "semestre": 2,
+    "tempoFormatura": 5.8,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Consultoria",
+      "Empreendedorismo"
+    ],
+    "hobbies": [
+      "Filmes",
+      "Leitura"
+    ],
+    "esportes": [
+      "Artes Marciais"
+    ],
+    "estiloMusical": "MPB",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Amizades"
+    ]
+  },
+  {
+    "id": 18,
+    "nome": "Bryan Rocha",
+    "curso": "Direito",
+    "semestre": 5,
+    "tempoFormatura": 2.7,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Concursos Públicos",
+      "Startups"
+    ],
+    "hobbies": [
+      "Culinária",
+      "Artesanato",
+      "Gaming"
+    ],
+    "esportes": [
+      "Corrida",
+      "Vôlei"
+    ],
+    "estiloMusical": "Gospel",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 19,
+    "nome": "Giovanna Silveira",
+    "curso": "Design",
+    "semestre": 4,
+    "tempoFormatura": 2.4,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Estágio",
+      "Concursos Públicos"
+    ],
+    "hobbies": [
+      "Desenho",
+      "Artesanato"
+    ],
+    "esportes": [
+      "Musculação",
+      "Artes Marciais",
+      "Natação"
+    ],
+    "estiloMusical": "MPB",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Bar",
+      "Praia"
+    ],
+    "tipoConexoesDesejadas": [
+      "Amizades"
+    ]
+  },
+  {
+    "id": 20,
+    "nome": "Agatha Rocha",
+    "curso": "Engenharia da Computação",
+    "semestre": 7,
+    "tempoFormatura": 3.5,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Concursos Públicos",
+      "Freelancer",
+      "ONGs"
+    ],
+    "hobbies": [
+      "Gaming",
+      "Fotografia",
+      "Culinária",
+      "Desenho",
+      "Leitura"
+    ],
+    "esportes": [
+      "Futebol",
+      "Pilates",
+      "Natação"
+    ],
+    "estiloMusical": "Rock",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Praia",
+      "Bar",
+      "Restaurante"
+    ],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 21,
+    "nome": "Maria Vitória Pires",
+    "curso": "Administração",
+    "semestre": 1,
+    "tempoFormatura": 4.2,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Setor Privado",
+      "Startups",
+      "Concursos Públicos",
+      "Empreendedorismo"
+    ],
+    "hobbies": [
+      "Filmes",
+      "Séries",
+      "Leitura",
+      "Desenho"
+    ],
+    "esportes": [
+      "Tênis",
+      "Basquete",
+      "Natação"
+    ],
+    "estiloMusical": "MPB",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Restaurante",
+      "Balada",
+      "Rolê em Casa"
+    ],
+    "tipoConexoesDesejadas": [
+      "Amizades"
+    ]
+  },
+  {
+    "id": 22,
+    "nome": "Alexandre das Neves",
+    "curso": "Engenharia da Computação",
+    "semestre": 6,
+    "tempoFormatura": 2.1,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Startups",
+      "Setor Privado",
+      "Estágio"
+    ],
+    "hobbies": [
+      "Culinária",
+      "Séries",
+      "Desenho",
+      "Filmes",
+      "Gaming"
+    ],
+    "esportes": [
+      "Artes Marciais",
+      "Musculação"
+    ],
+    "estiloMusical": "Sertanejo",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Amizades"
+    ]
+  },
+  {
+    "id": 23,
+    "nome": "Dra. Natália Martins",
+    "curso": "Arquitetura",
+    "semestre": 9,
+    "tempoFormatura": 4.0,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Concursos Públicos",
+      "Setor Privado",
+      "Freelancer",
+      "Consultoria"
+    ],
+    "hobbies": [
+      "Tocar Instrumento",
+      "Séries",
+      "Leitura"
+    ],
+    "esportes": [
+      "Musculação",
+      "Corrida",
+      "Tênis"
+    ],
+    "estiloMusical": "Sertanejo",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Parque",
+      "Praia",
+      "Balada"
+    ],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais",
+      "Amizades",
+      "Dates"
+    ]
+  },
+  {
+    "id": 24,
+    "nome": "Marcos Vinicius Almeida",
+    "curso": "Psicologia",
+    "semestre": 2,
+    "tempoFormatura": 3.5,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Concursos Públicos",
+      "ONGs",
+      "Pesquisa Acadêmica",
+      "Empreendedorismo"
+    ],
+    "hobbies": [
+      "Gaming",
+      "Desenho"
+    ],
+    "esportes": [
+      "Musculação"
+    ],
+    "estiloMusical": "Pop",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Dates"
+    ]
+  },
+  {
+    "id": 25,
+    "nome": "Juliana Monteiro",
+    "curso": "Engenharia Civil",
+    "semestre": 5,
+    "tempoFormatura": 1.1,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Consultoria",
+      "Empreendedorismo",
+      "ONGs"
+    ],
+    "hobbies": [
+      "Leitura",
+      "Séries",
+      "Desenho",
+      "Tocar Instrumento",
+      "Filmes"
+    ],
+    "esportes": [
+      "Vôlei",
+      "Natação"
+    ],
+    "estiloMusical": "Eletrônico",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Cinema",
+      "Parque",
+      "Praia"
+    ],
+    "tipoConexoesDesejadas": [
+      "Dates",
+      "Oportunidades Profissionais",
+      "Amizades"
+    ]
+  },
+  {
+    "id": 26,
+    "nome": "Raul da Rocha",
+    "curso": "Arquitetura",
+    "semestre": 3,
+    "tempoFormatura": 1.2,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Empreendedorismo",
+      "Setor Privado"
+    ],
+    "hobbies": [
+      "Séries",
+      "Artesanato",
+      "Culinária",
+      "Fotografia",
+      "Gaming"
+    ],
+    "esportes": [
+      "Yoga",
+      "Corrida",
+      "Natação"
+    ],
+    "estiloMusical": "Gospel",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Dates",
+      "Amizades",
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 27,
+    "nome": "Marcela Cardoso",
+    "curso": "Administração",
+    "semestre": 5,
+    "tempoFormatura": 3.7,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Consultoria",
+      "Empreendedorismo"
+    ],
+    "hobbies": [
+      "Artesanato",
+      "Séries"
+    ],
+    "esportes": [
+      "Artes Marciais",
+      "Basquete",
+      "Musculação"
+    ],
+    "estiloMusical": "Trap",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Balada",
+      "Parque",
+      "Rolê em Casa"
+    ],
+    "tipoConexoesDesejadas": [
+      "Dates",
+      "Oportunidades Profissionais",
+      "Amizades"
+    ]
+  },
+  {
+    "id": 28,
+    "nome": "Emilly Mendes",
+    "curso": "Administração",
+    "semestre": 3,
+    "tempoFormatura": 2.0,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Pesquisa Acadêmica",
+      "Concursos Públicos"
+    ],
+    "hobbies": [
+      "Artesanato",
+      "Tocar Instrumento",
+      "Desenho"
+    ],
+    "esportes": [
+      "Pilates",
+      "Natação"
+    ],
+    "estiloMusical": "Jazz",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Bar",
+      "Parque",
+      "Balada"
+    ],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais",
+      "Dates"
+    ]
+  },
+  {
+    "id": 29,
+    "nome": "Alana Carvalho",
+    "curso": "Direito",
+    "semestre": 9,
+    "tempoFormatura": 2.1,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Consultoria",
+      "Freelancer"
+    ],
+    "hobbies": [
+      "Artesanato",
+      "Tocar Instrumento",
+      "Culinária",
+      "Filmes",
+      "Desenho"
+    ],
+    "esportes": [
+      "Artes Marciais"
+    ],
+    "estiloMusical": "MPB",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Dates",
+      "Amizades"
+    ]
+  },
+  {
+    "id": 30,
+    "nome": "Dra. Eduarda da Paz",
+    "curso": "Direito",
+    "semestre": 6,
+    "tempoFormatura": 6.0,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Empreendedorismo",
+      "Pesquisa Acadêmica",
+      "Startups"
+    ],
+    "hobbies": [
+      "Gaming",
+      "Fotografia",
+      "Filmes",
+      "Tocar Instrumento"
+    ],
+    "esportes": [
+      "Yoga"
+    ],
+    "estiloMusical": "Eletrônico",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Amizades",
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 31,
+    "nome": "Dra. Milena Peixoto",
+    "curso": "Design",
+    "semestre": 8,
+    "tempoFormatura": 2.5,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Concursos Públicos",
+      "Freelancer",
+      "ONGs",
+      "Setor Privado"
+    ],
+    "hobbies": [
+      "Dança",
+      "Leitura",
+      "Tocar Instrumento",
+      "Filmes"
+    ],
+    "esportes": [
+      "Musculação"
+    ],
+    "estiloMusical": "Pop",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Amizades",
+      "Oportunidades Profissionais",
+      "Dates"
+    ]
+  },
+  {
+    "id": 32,
+    "nome": "João Vitor Ribeiro",
+    "curso": "Direito",
+    "semestre": 7,
+    "tempoFormatura": 2.1,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Estágio",
+      "Freelancer"
+    ],
+    "hobbies": [
+      "Fotografia",
+      "Dança",
+      "Filmes",
+      "Gaming"
+    ],
+    "esportes": [
+      "Tênis",
+      "Pilates",
+      "Natação"
+    ],
+    "estiloMusical": "Jazz",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Rolê em Casa",
+      "Cinema"
+    ],
+    "tipoConexoesDesejadas": [
+      "Amizades",
+      "Dates"
+    ]
+  },
+  {
+    "id": 33,
+    "nome": "Francisco Rezende",
+    "curso": "Engenharia da Computação",
+    "semestre": 1,
+    "tempoFormatura": 2.2,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Startups",
+      "Setor Privado",
+      "Consultoria",
+      "ONGs"
+    ],
+    "hobbies": [
+      "Séries",
+      "Tocar Instrumento",
+      "Dança",
+      "Leitura",
+      "Culinária"
+    ],
+    "esportes": [
+      "Corrida"
+    ],
+    "estiloMusical": "MPB",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Cinema",
+      "Balada",
+      "Parque"
+    ],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais",
+      "Dates"
+    ]
+  },
+  {
+    "id": 34,
+    "nome": "Sra. Isis Jesus",
+    "curso": "Engenharia da Computação",
+    "semestre": 2,
+    "tempoFormatura": 2.1,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Startups",
+      "Freelancer"
+    ],
+    "hobbies": [
+      "Artesanato",
+      "Filmes",
+      "Culinária",
+      "Dança",
+      "Desenho"
+    ],
+    "esportes": [
+      "Corrida",
+      "Vôlei"
+    ],
+    "estiloMusical": "Sertanejo",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Amizades",
+      "Dates",
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 35,
+    "nome": "Arthur Viana",
+    "curso": "Publicidade",
+    "semestre": 7,
+    "tempoFormatura": 3.9,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Pesquisa Acadêmica",
+      "Setor Privado"
+    ],
+    "hobbies": [
+      "Tocar Instrumento",
+      "Séries",
+      "Artesanato",
+      "Gaming"
+    ],
+    "esportes": [
+      "Vôlei",
+      "Artes Marciais",
+      "Futebol"
+    ],
+    "estiloMusical": "Eletrônico",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Rolê em Casa",
+      "Cinema",
+      "Praia"
+    ],
+    "tipoConexoesDesejadas": [
+      "Amizades",
+      "Dates"
+    ]
+  },
+  {
+    "id": 36,
+    "nome": "Augusto Rezende",
+    "curso": "Administração",
+    "semestre": 5,
+    "tempoFormatura": 3.6,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Freelancer",
+      "Pesquisa Acadêmica",
+      "Estágio",
+      "ONGs"
+    ],
+    "hobbies": [
+      "Culinária",
+      "Fotografia",
+      "Desenho"
+    ],
+    "esportes": [
+      "Basquete",
+      "Tênis",
+      "Corrida"
+    ],
+    "estiloMusical": "Indie",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Amizades",
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 37,
+    "nome": "Henrique Nascimento",
+    "curso": "Direito",
+    "semestre": 5,
+    "tempoFormatura": 4.8,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Estágio",
+      "Freelancer",
+      "Empreendedorismo"
+    ],
+    "hobbies": [
+      "Filmes",
+      "Fotografia",
+      "Culinária"
+    ],
+    "esportes": [
+      "Futebol"
+    ],
+    "estiloMusical": "Funk",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Dates",
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 38,
+    "nome": "Dr. Igor Silva",
+    "curso": "Design",
+    "semestre": 7,
+    "tempoFormatura": 4.9,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Empreendedorismo",
+      "ONGs",
+      "Freelancer",
+      "Consultoria"
+    ],
+    "hobbies": [
+      "Dança",
+      "Filmes"
+    ],
+    "esportes": [
+      "Corrida"
+    ],
+    "estiloMusical": "Funk",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Rolê em Casa",
+      "Restaurante"
+    ],
+    "tipoConexoesDesejadas": [
+      "Dates",
+      "Oportunidades Profissionais",
+      "Amizades"
+    ]
+  },
+  {
+    "id": 39,
+    "nome": "Sr. Luiz Otávio Dias",
+    "curso": "Direito",
+    "semestre": 3,
+    "tempoFormatura": 4.3,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Estágio",
+      "Consultoria"
+    ],
+    "hobbies": [
+      "Dança",
+      "Artesanato",
+      "Tocar Instrumento",
+      "Séries",
+      "Desenho"
+    ],
+    "esportes": [
+      "Tênis"
+    ],
+    "estiloMusical": "Pop",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 40,
+    "nome": "Cecília da Mota",
+    "curso": "Direito",
+    "semestre": 5,
+    "tempoFormatura": 1.0,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Estágio",
+      "Startups"
+    ],
+    "hobbies": [
+      "Dança",
+      "Culinária",
+      "Desenho",
+      "Leitura"
+    ],
+    "esportes": [
+      "Basquete",
+      "Vôlei",
+      "Artes Marciais"
+    ],
+    "estiloMusical": "Gospel",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Cinema",
+      "Parque"
+    ],
+    "tipoConexoesDesejadas": [
+      "Amizades"
+    ]
+  },
+  {
+    "id": 41,
+    "nome": "Melissa da Cruz",
+    "curso": "Administração",
+    "semestre": 4,
+    "tempoFormatura": 1.8,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Estágio",
+      "Concursos Públicos",
+      "Setor Privado"
+    ],
+    "hobbies": [
+      "Artesanato",
+      "Desenho",
+      "Dança",
+      "Gaming",
+      "Leitura"
+    ],
+    "esportes": [
+      "Musculação",
+      "Artes Marciais",
+      "Corrida"
+    ],
+    "estiloMusical": "Jazz",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Parque"
+    ],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais",
+      "Dates",
+      "Amizades"
+    ]
+  },
+  {
+    "id": 42,
+    "nome": "Dr. Ryan Moura",
+    "curso": "Publicidade",
+    "semestre": 7,
+    "tempoFormatura": 3.9,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Consultoria",
+      "Estágio",
+      "Setor Privado"
+    ],
+    "hobbies": [
+      "Culinária",
+      "Filmes"
+    ],
+    "esportes": [
+      "Pilates"
+    ],
+    "estiloMusical": "Funk",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais",
+      "Amizades",
+      "Dates"
+    ]
+  },
+  {
+    "id": 43,
+    "nome": "Mariana Cardoso",
+    "curso": "Direito",
+    "semestre": 1,
+    "tempoFormatura": 2.4,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Concursos Públicos",
+      "Pesquisa Acadêmica"
+    ],
+    "hobbies": [
+      "Séries",
+      "Gaming"
+    ],
+    "esportes": [
+      "Tênis"
+    ],
+    "estiloMusical": "Funk",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Amizades",
+      "Oportunidades Profissionais",
+      "Dates"
+    ]
+  },
+  {
+    "id": 44,
+    "nome": "Ryan Santos",
+    "curso": "Psicologia",
+    "semestre": 7,
+    "tempoFormatura": 1.1,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Concursos Públicos",
+      "Empreendedorismo",
+      "Freelancer"
+    ],
+    "hobbies": [
+      "Fotografia",
+      "Desenho",
+      "Gaming"
+    ],
+    "esportes": [
+      "Basquete"
+    ],
+    "estiloMusical": "Indie",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Amizades",
+      "Dates"
+    ]
+  },
+  {
+    "id": 45,
+    "nome": "Julia da Rosa",
+    "curso": "Direito",
+    "semestre": 7,
+    "tempoFormatura": 5.7,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "ONGs",
+      "Setor Privado",
+      "Concursos Públicos"
+    ],
+    "hobbies": [
+      "Leitura",
+      "Desenho"
+    ],
+    "esportes": [
+      "Tênis",
+      "Pilates"
+    ],
+    "estiloMusical": "Jazz",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais",
+      "Amizades",
+      "Dates"
+    ]
+  },
+  {
+    "id": 46,
+    "nome": "Lívia Pinto",
+    "curso": "Design",
+    "semestre": 10,
+    "tempoFormatura": 2.8,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Concursos Públicos",
+      "Pesquisa Acadêmica"
+    ],
+    "hobbies": [
+      "Tocar Instrumento",
+      "Séries",
+      "Culinária"
+    ],
+    "esportes": [
+      "Futebol"
+    ],
+    "estiloMusical": "Indie",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Cinema",
+      "Praia"
+    ],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais",
+      "Amizades"
+    ]
+  },
+  {
+    "id": 47,
+    "nome": "Maria Almeida",
+    "curso": "Medicina",
+    "semestre": 8,
+    "tempoFormatura": 5.4,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Pesquisa Acadêmica",
+      "Setor Privado",
+      "Consultoria"
+    ],
+    "hobbies": [
+      "Séries",
+      "Desenho",
+      "Gaming",
+      "Tocar Instrumento",
+      "Filmes"
+    ],
+    "esportes": [
+      "Vôlei"
+    ],
+    "estiloMusical": "Indie",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Amizades",
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 48,
+    "nome": "Sr. Otávio Ferreira",
+    "curso": "Design",
+    "semestre": 9,
+    "tempoFormatura": 5.5,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Empreendedorismo",
+      "ONGs",
+      "Setor Privado"
+    ],
+    "hobbies": [
+      "Culinária",
+      "Desenho",
+      "Leitura",
+      "Filmes",
+      "Tocar Instrumento"
+    ],
+    "esportes": [
+      "Corrida"
+    ],
+    "estiloMusical": "Rock",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais",
+      "Dates"
+    ]
+  },
+  {
+    "id": 49,
+    "nome": "Luiz Fernando Martins",
+    "curso": "Medicina",
+    "semestre": 10,
+    "tempoFormatura": 4.5,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Startups",
+      "Consultoria",
+      "Concursos Públicos"
+    ],
+    "hobbies": [
+      "Desenho",
+      "Gaming",
+      "Filmes"
+    ],
+    "esportes": [
+      "Musculação",
+      "Vôlei",
+      "Tênis"
+    ],
+    "estiloMusical": "Indie",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Dates",
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 50,
+    "nome": "Luiz Felipe da Rocha",
+    "curso": "Arquitetura",
+    "semestre": 4,
+    "tempoFormatura": 4.5,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Pesquisa Acadêmica",
+      "Empreendedorismo"
+    ],
+    "hobbies": [
+      "Leitura",
+      "Gaming"
+    ],
+    "esportes": [
+      "Futebol"
+    ],
+    "estiloMusical": "Funk",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Praia"
+    ],
+    "tipoConexoesDesejadas": [
+      "Dates"
+    ]
+  },
+  {
+    "id": 51,
+    "nome": "Yasmin Pereira",
+    "curso": "Administração",
+    "semestre": 2,
+    "tempoFormatura": 4.9,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "ONGs",
+      "Empreendedorismo",
+      "Setor Privado",
+      "Freelancer"
+    ],
+    "hobbies": [
+      "Leitura",
+      "Tocar Instrumento"
+    ],
+    "esportes": [
+      "Basquete",
+      "Musculação"
+    ],
+    "estiloMusical": "Sertanejo",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Bar"
+    ],
+    "tipoConexoesDesejadas": [
+      "Amizades"
+    ]
+  },
+  {
+    "id": 52,
+    "nome": "Melissa Lima",
+    "curso": "Engenharia da Computação",
+    "semestre": 3,
+    "tempoFormatura": 5.7,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Empreendedorismo",
+      "Pesquisa Acadêmica",
+      "Estágio"
+    ],
+    "hobbies": [
+      "Culinária",
+      "Leitura"
+    ],
+    "esportes": [
+      "Yoga",
+      "Basquete"
+    ],
+    "estiloMusical": "Gospel",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Dates",
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 53,
+    "nome": "Sra. Maria Alice Silva",
+    "curso": "Psicologia",
+    "semestre": 1,
+    "tempoFormatura": 1.2,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Freelancer",
+      "Setor Privado",
+      "Concursos Públicos"
+    ],
+    "hobbies": [
+      "Filmes",
+      "Culinária"
+    ],
+    "esportes": [
+      "Natação",
+      "Yoga",
+      "Tênis"
+    ],
+    "estiloMusical": "Eletrônico",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Dates"
+    ]
+  },
+  {
+    "id": 54,
+    "nome": "Maria Sophia Campos",
+    "curso": "Design",
+    "semestre": 7,
+    "tempoFormatura": 1.5,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Startups",
+      "Freelancer",
+      "ONGs"
+    ],
+    "hobbies": [
+      "Filmes",
+      "Séries",
+      "Leitura"
+    ],
+    "esportes": [
+      "Tênis",
+      "Basquete"
+    ],
+    "estiloMusical": "Rock",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Amizades",
+      "Dates"
+    ]
+  },
+  {
+    "id": 55,
+    "nome": "Maria Vitória Pinto",
+    "curso": "Publicidade",
+    "semestre": 3,
+    "tempoFormatura": 3.2,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Startups",
+      "Estágio",
+      "Pesquisa Acadêmica"
+    ],
+    "hobbies": [
+      "Séries",
+      "Dança"
+    ],
+    "esportes": [
+      "Natação",
+      "Tênis"
+    ],
+    "estiloMusical": "Jazz",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Amizades"
+    ]
+  },
+  {
+    "id": 56,
+    "nome": "João Guilherme Barbosa",
+    "curso": "Arquitetura",
+    "semestre": 1,
+    "tempoFormatura": 2.5,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Startups",
+      "Empreendedorismo",
+      "Pesquisa Acadêmica"
+    ],
+    "hobbies": [
+      "Fotografia",
+      "Tocar Instrumento"
+    ],
+    "esportes": [
+      "Vôlei",
+      "Natação",
+      "Futebol"
+    ],
+    "estiloMusical": "Trap",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 57,
+    "nome": "Bruna Viana",
+    "curso": "Engenharia da Computação",
+    "semestre": 2,
+    "tempoFormatura": 4.6,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Consultoria",
+      "Startups",
+      "Concursos Públicos",
+      "Estágio"
+    ],
+    "hobbies": [
+      "Filmes",
+      "Séries",
+      "Gaming",
+      "Tocar Instrumento",
+      "Fotografia"
+    ],
+    "esportes": [
+      "Basquete"
+    ],
+    "estiloMusical": "MPB",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Amizades",
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 58,
+    "nome": "Ana Laura da Mata",
+    "curso": "Administração",
+    "semestre": 4,
+    "tempoFormatura": 2.5,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Pesquisa Acadêmica",
+      "ONGs",
+      "Estágio",
+      "Freelancer"
+    ],
+    "hobbies": [
+      "Filmes",
+      "Artesanato"
+    ],
+    "esportes": [
+      "Artes Marciais",
+      "Yoga"
+    ],
+    "estiloMusical": "MPB",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Bar",
+      "Praia"
+    ],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais",
+      "Amizades",
+      "Dates"
+    ]
+  },
+  {
+    "id": 59,
+    "nome": "Isabella Cunha",
+    "curso": "Engenharia da Computação",
+    "semestre": 2,
+    "tempoFormatura": 3.4,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Empreendedorismo",
+      "Pesquisa Acadêmica"
+    ],
+    "hobbies": [
+      "Leitura",
+      "Fotografia"
+    ],
+    "esportes": [
+      "Pilates",
+      "Vôlei"
+    ],
+    "estiloMusical": "MPB",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Balada"
+    ],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 60,
+    "nome": "Nicole da Cruz",
+    "curso": "Direito",
+    "semestre": 5,
+    "tempoFormatura": 1.4,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Estágio",
+      "Startups"
+    ],
+    "hobbies": [
+      "Séries",
+      "Tocar Instrumento",
+      "Leitura",
+      "Fotografia",
+      "Desenho"
+    ],
+    "esportes": [
+      "Musculação",
+      "Artes Marciais",
+      "Natação"
+    ],
+    "estiloMusical": "Trap",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Dates",
+      "Amizades"
+    ]
+  },
+  {
+    "id": 61,
+    "nome": "Alexia Almeida",
+    "curso": "Direito",
+    "semestre": 6,
+    "tempoFormatura": 4.7,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Estágio",
+      "Consultoria",
+      "Concursos Públicos",
+      "Empreendedorismo"
+    ],
+    "hobbies": [
+      "Culinária",
+      "Fotografia"
+    ],
+    "esportes": [
+      "Futebol",
+      "Natação",
+      "Musculação"
+    ],
+    "estiloMusical": "Funk",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Parque"
+    ],
+    "tipoConexoesDesejadas": [
+      "Amizades",
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 62,
+    "nome": "Ana Beatriz da Mata",
+    "curso": "Engenharia Civil",
+    "semestre": 6,
+    "tempoFormatura": 5.0,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "ONGs",
+      "Concursos Públicos"
+    ],
+    "hobbies": [
+      "Dança",
+      "Culinária",
+      "Artesanato"
+    ],
+    "esportes": [
+      "Pilates",
+      "Futebol"
+    ],
+    "estiloMusical": "Trap",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Amizades",
+      "Oportunidades Profissionais",
+      "Dates"
+    ]
+  },
+  {
+    "id": 63,
+    "nome": "Milena da Mota",
+    "curso": "Arquitetura",
+    "semestre": 8,
+    "tempoFormatura": 3.5,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Empreendedorismo",
+      "Estágio",
+      "Pesquisa Acadêmica"
+    ],
+    "hobbies": [
+      "Tocar Instrumento",
+      "Fotografia",
+      "Leitura",
+      "Séries",
+      "Desenho"
+    ],
+    "esportes": [
+      "Corrida"
+    ],
+    "estiloMusical": "Eletrônico",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais",
+      "Amizades"
+    ]
+  },
+  {
+    "id": 64,
+    "nome": "Isabel Moraes",
+    "curso": "Direito",
+    "semestre": 9,
+    "tempoFormatura": 2.4,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Pesquisa Acadêmica",
+      "Estágio",
+      "Startups"
+    ],
+    "hobbies": [
+      "Tocar Instrumento",
+      "Dança",
+      "Artesanato",
+      "Culinária"
+    ],
+    "esportes": [
+      "Futebol",
+      "Vôlei"
+    ],
+    "estiloMusical": "MPB",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Parque",
+      "Balada"
+    ],
+    "tipoConexoesDesejadas": [
+      "Amizades"
+    ]
+  },
+  {
+    "id": 65,
+    "nome": "Lorenzo Teixeira",
+    "curso": "Design",
+    "semestre": 8,
+    "tempoFormatura": 3.3,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Startups",
+      "Freelancer",
+      "Estágio",
+      "Consultoria"
+    ],
+    "hobbies": [
+      "Culinária",
+      "Desenho",
+      "Tocar Instrumento",
+      "Leitura"
+    ],
+    "esportes": [
+      "Artes Marciais"
+    ],
+    "estiloMusical": "Jazz",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 66,
+    "nome": "Dra. Ana Vitória Barbosa",
+    "curso": "Engenharia da Computação",
+    "semestre": 7,
+    "tempoFormatura": 4.0,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Concursos Públicos",
+      "Startups",
+      "Estágio",
+      "Setor Privado"
+    ],
+    "hobbies": [
+      "Séries",
+      "Filmes",
+      "Artesanato",
+      "Leitura",
+      "Fotografia"
+    ],
+    "esportes": [
+      "Artes Marciais",
+      "Musculação",
+      "Vôlei"
+    ],
+    "estiloMusical": "Rock",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Dates",
+      "Amizades"
+    ]
+  },
+  {
+    "id": 67,
+    "nome": "Melissa Fernandes",
+    "curso": "Medicina",
+    "semestre": 3,
+    "tempoFormatura": 5.2,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Freelancer",
+      "Concursos Públicos"
+    ],
+    "hobbies": [
+      "Séries",
+      "Desenho",
+      "Culinária",
+      "Tocar Instrumento"
+    ],
+    "esportes": [
+      "Pilates",
+      "Musculação"
+    ],
+    "estiloMusical": "Indie",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Balada",
+      "Cinema",
+      "Praia"
+    ],
+    "tipoConexoesDesejadas": [
+      "Amizades"
+    ]
+  },
+  {
+    "id": 68,
+    "nome": "Lucas Nogueira",
+    "curso": "Administração",
+    "semestre": 3,
+    "tempoFormatura": 4.1,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "ONGs",
+      "Empreendedorismo",
+      "Startups"
+    ],
+    "hobbies": [
+      "Leitura",
+      "Gaming",
+      "Dança"
+    ],
+    "esportes": [
+      "Vôlei",
+      "Tênis"
+    ],
+    "estiloMusical": "Jazz",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Restaurante",
+      "Balada",
+      "Cinema"
+    ],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 69,
+    "nome": "Luna Almeida",
+    "curso": "Publicidade",
+    "semestre": 8,
+    "tempoFormatura": 2.8,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Startups",
+      "Pesquisa Acadêmica"
+    ],
+    "hobbies": [
+      "Filmes",
+      "Séries",
+      "Leitura"
+    ],
+    "esportes": [
+      "Basquete",
+      "Musculação",
+      "Natação"
+    ],
+    "estiloMusical": "Eletrônico",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Rolê em Casa",
+      "Bar"
+    ],
+    "tipoConexoesDesejadas": [
+      "Dates",
+      "Oportunidades Profissionais",
+      "Amizades"
+    ]
+  },
+  {
+    "id": 70,
+    "nome": "Alice Azevedo",
+    "curso": "Medicina",
+    "semestre": 5,
+    "tempoFormatura": 6.0,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Empreendedorismo",
+      "Concursos Públicos",
+      "Freelancer",
+      "Pesquisa Acadêmica"
+    ],
+    "hobbies": [
+      "Fotografia",
+      "Gaming",
+      "Dança",
+      "Artesanato",
+      "Tocar Instrumento"
+    ],
+    "esportes": [
+      "Pilates",
+      "Basquete"
+    ],
+    "estiloMusical": "Rock",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Bar",
+      "Restaurante",
+      "Rolê em Casa"
+    ],
+    "tipoConexoesDesejadas": [
+      "Amizades",
+      "Dates"
+    ]
+  },
+  {
+    "id": 71,
+    "nome": "Guilherme Rodrigues",
+    "curso": "Design",
+    "semestre": 2,
+    "tempoFormatura": 1.3,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Setor Privado",
+      "Empreendedorismo",
+      "ONGs"
+    ],
+    "hobbies": [
+      "Gaming",
+      "Dança",
+      "Culinária",
+      "Desenho",
+      "Séries"
+    ],
+    "esportes": [
+      "Natação"
+    ],
+    "estiloMusical": "Pop",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Amizades",
+      "Dates"
+    ]
+  },
+  {
+    "id": 72,
+    "nome": "Marcelo Barros",
+    "curso": "Engenharia Civil",
+    "semestre": 2,
+    "tempoFormatura": 5.9,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Pesquisa Acadêmica",
+      "Concursos Públicos",
+      "Freelancer"
+    ],
+    "hobbies": [
+      "Tocar Instrumento",
+      "Artesanato",
+      "Fotografia",
+      "Culinária"
+    ],
+    "esportes": [
+      "Corrida",
+      "Basquete"
+    ],
+    "estiloMusical": "Gospel",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Amizades",
+      "Dates",
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 73,
+    "nome": "Sabrina Carvalho",
+    "curso": "Psicologia",
+    "semestre": 4,
+    "tempoFormatura": 5.4,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Empreendedorismo",
+      "Startups"
+    ],
+    "hobbies": [
+      "Culinária",
+      "Tocar Instrumento"
+    ],
+    "esportes": [
+      "Pilates",
+      "Basquete"
+    ],
+    "estiloMusical": "MPB",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais",
+      "Dates"
+    ]
+  },
+  {
+    "id": 74,
+    "nome": "Bianca Monteiro",
+    "curso": "Arquitetura",
+    "semestre": 9,
+    "tempoFormatura": 4.0,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Setor Privado",
+      "Freelancer",
+      "Empreendedorismo",
+      "Pesquisa Acadêmica"
+    ],
+    "hobbies": [
+      "Leitura",
+      "Séries",
+      "Desenho",
+      "Dança"
+    ],
+    "esportes": [
+      "Futebol",
+      "Corrida"
+    ],
+    "estiloMusical": "Indie",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Praia"
+    ],
+    "tipoConexoesDesejadas": [
+      "Amizades"
+    ]
+  },
+  {
+    "id": 75,
+    "nome": "Vitória Duarte",
+    "curso": "Engenharia Civil",
+    "semestre": 2,
+    "tempoFormatura": 1.9,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Concursos Públicos",
+      "Setor Privado",
+      "Startups",
+      "Estágio"
+    ],
+    "hobbies": [
+      "Séries",
+      "Artesanato",
+      "Tocar Instrumento",
+      "Filmes",
+      "Culinária"
+    ],
+    "esportes": [
+      "Yoga",
+      "Musculação",
+      "Natação"
+    ],
+    "estiloMusical": "Jazz",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 76,
+    "nome": "Sr. Vicente Dias",
+    "curso": "Engenharia da Computação",
+    "semestre": 10,
+    "tempoFormatura": 2.9,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "ONGs",
+      "Empreendedorismo",
+      "Setor Privado"
+    ],
+    "hobbies": [
+      "Culinária",
+      "Dança",
+      "Fotografia",
+      "Séries"
+    ],
+    "esportes": [
+      "Musculação",
+      "Tênis"
+    ],
+    "estiloMusical": "Pop",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Dates",
+      "Amizades",
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 77,
+    "nome": "Elisa da Cruz",
+    "curso": "Publicidade",
+    "semestre": 3,
+    "tempoFormatura": 5.0,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Startups",
+      "Consultoria",
+      "Setor Privado"
+    ],
+    "hobbies": [
+      "Tocar Instrumento",
+      "Fotografia",
+      "Séries"
+    ],
+    "esportes": [
+      "Vôlei",
+      "Musculação"
+    ],
+    "estiloMusical": "Indie",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Amizades",
+      "Oportunidades Profissionais",
+      "Dates"
+    ]
+  },
+  {
+    "id": 78,
+    "nome": "Milena Teixeira",
+    "curso": "Administração",
+    "semestre": 9,
+    "tempoFormatura": 3.6,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Startups",
+      "Consultoria",
+      "Concursos Públicos",
+      "Estágio"
+    ],
+    "hobbies": [
+      "Dança",
+      "Fotografia"
+    ],
+    "esportes": [
+      "Artes Marciais",
+      "Pilates"
+    ],
+    "estiloMusical": "Pop",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Dates",
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 79,
+    "nome": "Theo Sales",
+    "curso": "Engenharia da Computação",
+    "semestre": 4,
+    "tempoFormatura": 3.2,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Setor Privado",
+      "Pesquisa Acadêmica"
+    ],
+    "hobbies": [
+      "Tocar Instrumento",
+      "Fotografia",
+      "Artesanato",
+      "Filmes",
+      "Leitura"
+    ],
+    "esportes": [
+      "Musculação"
+    ],
+    "estiloMusical": "MPB",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais",
+      "Amizades",
+      "Dates"
+    ]
+  },
+  {
+    "id": 80,
+    "nome": "Melissa Lopes",
+    "curso": "Engenharia Civil",
+    "semestre": 4,
+    "tempoFormatura": 1.4,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Startups",
+      "Setor Privado"
+    ],
+    "hobbies": [
+      "Tocar Instrumento",
+      "Desenho",
+      "Fotografia"
+    ],
+    "esportes": [
+      "Artes Marciais"
+    ],
+    "estiloMusical": "Sertanejo",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Rolê em Casa"
+    ],
+    "tipoConexoesDesejadas": [
+      "Amizades",
+      "Dates",
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 81,
+    "nome": "Laura Duarte",
+    "curso": "Arquitetura",
+    "semestre": 4,
+    "tempoFormatura": 4.2,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Pesquisa Acadêmica",
+      "Estágio",
+      "Setor Privado"
+    ],
+    "hobbies": [
+      "Gaming",
+      "Desenho",
+      "Filmes",
+      "Tocar Instrumento",
+      "Artesanato"
+    ],
+    "esportes": [
+      "Natação"
+    ],
+    "estiloMusical": "Jazz",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais",
+      "Amizades",
+      "Dates"
+    ]
+  },
+  {
+    "id": 82,
+    "nome": "Dr. João Felipe Cavalcanti",
+    "curso": "Psicologia",
+    "semestre": 6,
+    "tempoFormatura": 4.0,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Estágio",
+      "Freelancer",
+      "Consultoria"
+    ],
+    "hobbies": [
+      "Fotografia",
+      "Gaming",
+      "Tocar Instrumento",
+      "Filmes"
+    ],
+    "esportes": [
+      "Natação"
+    ],
+    "estiloMusical": "Sertanejo",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Dates",
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 83,
+    "nome": "Thiago Farias",
+    "curso": "Engenharia da Computação",
+    "semestre": 9,
+    "tempoFormatura": 3.4,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Startups",
+      "Freelancer",
+      "Concursos Públicos"
+    ],
+    "hobbies": [
+      "Leitura",
+      "Dança",
+      "Séries",
+      "Tocar Instrumento",
+      "Artesanato"
+    ],
+    "esportes": [
+      "Tênis",
+      "Basquete",
+      "Natação"
+    ],
+    "estiloMusical": "Indie",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais",
+      "Amizades",
+      "Dates"
+    ]
+  },
+  {
+    "id": 84,
+    "nome": "Theo Silva",
+    "curso": "Publicidade",
+    "semestre": 1,
+    "tempoFormatura": 4.5,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Pesquisa Acadêmica",
+      "Estágio",
+      "Empreendedorismo"
+    ],
+    "hobbies": [
+      "Tocar Instrumento",
+      "Fotografia",
+      "Séries",
+      "Leitura"
+    ],
+    "esportes": [
+      "Tênis",
+      "Futebol",
+      "Artes Marciais"
+    ],
+    "estiloMusical": "Eletrônico",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais",
+      "Dates",
+      "Amizades"
+    ]
+  },
+  {
+    "id": 85,
+    "nome": "Calebe Pires",
+    "curso": "Engenharia Civil",
+    "semestre": 10,
+    "tempoFormatura": 1.5,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Pesquisa Acadêmica",
+      "ONGs",
+      "Consultoria",
+      "Freelancer"
+    ],
+    "hobbies": [
+      "Gaming",
+      "Culinária",
+      "Artesanato"
+    ],
+    "esportes": [
+      "Tênis",
+      "Basquete",
+      "Natação"
+    ],
+    "estiloMusical": "Pop",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais",
+      "Amizades"
+    ]
+  },
+  {
+    "id": 86,
+    "nome": "Vitor Viana",
+    "curso": "Direito",
+    "semestre": 3,
+    "tempoFormatura": 2.5,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "ONGs",
+      "Empreendedorismo"
+    ],
+    "hobbies": [
+      "Culinária",
+      "Leitura",
+      "Desenho"
+    ],
+    "esportes": [
+      "Artes Marciais"
+    ],
+    "estiloMusical": "Indie",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais",
+      "Dates"
+    ]
+  },
+  {
+    "id": 87,
+    "nome": "Mariane da Paz",
+    "curso": "Engenharia Civil",
+    "semestre": 4,
+    "tempoFormatura": 2.0,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Estágio",
+      "Concursos Públicos"
+    ],
+    "hobbies": [
+      "Tocar Instrumento",
+      "Leitura"
+    ],
+    "esportes": [
+      "Basquete",
+      "Natação",
+      "Corrida"
+    ],
+    "estiloMusical": "Jazz",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Rolê em Casa",
+      "Restaurante",
+      "Praia"
+    ],
+    "tipoConexoesDesejadas": [
+      "Amizades"
+    ]
+  },
+  {
+    "id": 88,
+    "nome": "Fernando Teixeira",
+    "curso": "Publicidade",
+    "semestre": 4,
+    "tempoFormatura": 2.3,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Estágio",
+      "Concursos Públicos"
+    ],
+    "hobbies": [
+      "Artesanato",
+      "Fotografia"
+    ],
+    "esportes": [
+      "Yoga",
+      "Futebol",
+      "Pilates"
+    ],
+    "estiloMusical": "Rock",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Cinema"
+    ],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 89,
+    "nome": "Maria Sophia Aragão",
+    "curso": "Psicologia",
+    "semestre": 1,
+    "tempoFormatura": 3.5,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Estágio",
+      "Concursos Públicos"
+    ],
+    "hobbies": [
+      "Séries",
+      "Fotografia"
+    ],
+    "esportes": [
+      "Musculação",
+      "Futebol"
+    ],
+    "estiloMusical": "Rock",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Dates",
+      "Oportunidades Profissionais",
+      "Amizades"
+    ]
+  },
+  {
+    "id": 90,
+    "nome": "Pedro Viana",
+    "curso": "Engenharia Civil",
+    "semestre": 2,
+    "tempoFormatura": 3.9,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Empreendedorismo",
+      "Consultoria",
+      "Estágio"
+    ],
+    "hobbies": [
+      "Fotografia",
+      "Culinária",
+      "Tocar Instrumento",
+      "Dança",
+      "Filmes"
+    ],
+    "esportes": [
+      "Futebol"
+    ],
+    "estiloMusical": "Eletrônico",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Bar",
+      "Balada"
+    ],
+    "tipoConexoesDesejadas": [
+      "Dates",
+      "Oportunidades Profissionais",
+      "Amizades"
+    ]
+  },
+  {
+    "id": 91,
+    "nome": "Dr. Felipe Freitas",
+    "curso": "Design",
+    "semestre": 4,
+    "tempoFormatura": 2.2,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "ONGs",
+      "Pesquisa Acadêmica",
+      "Consultoria"
+    ],
+    "hobbies": [
+      "Fotografia",
+      "Artesanato",
+      "Leitura",
+      "Filmes"
+    ],
+    "esportes": [
+      "Vôlei",
+      "Futebol"
+    ],
+    "estiloMusical": "Eletrônico",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Rolê em Casa",
+      "Cinema"
+    ],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 92,
+    "nome": "Lavínia Fogaça",
+    "curso": "Publicidade",
+    "semestre": 2,
+    "tempoFormatura": 2.2,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Consultoria",
+      "Setor Privado"
+    ],
+    "hobbies": [
+      "Culinária",
+      "Leitura",
+      "Dança"
+    ],
+    "esportes": [
+      "Tênis",
+      "Natação",
+      "Basquete"
+    ],
+    "estiloMusical": "Jazz",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Dates",
+      "Amizades",
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 93,
+    "nome": "Erick Rezende",
+    "curso": "Arquitetura",
+    "semestre": 8,
+    "tempoFormatura": 1.9,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Setor Privado",
+      "Pesquisa Acadêmica",
+      "Estágio",
+      "Concursos Públicos"
+    ],
+    "hobbies": [
+      "Desenho",
+      "Fotografia",
+      "Dança",
+      "Culinária"
+    ],
+    "esportes": [
+      "Artes Marciais",
+      "Natação"
+    ],
+    "estiloMusical": "Rock",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Dates",
+      "Amizades",
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 94,
+    "nome": "Raquel Aragão",
+    "curso": "Arquitetura",
+    "semestre": 9,
+    "tempoFormatura": 2.2,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Setor Privado",
+      "Consultoria"
+    ],
+    "hobbies": [
+      "Culinária",
+      "Séries",
+      "Gaming",
+      "Tocar Instrumento"
+    ],
+    "esportes": [
+      "Pilates",
+      "Artes Marciais"
+    ],
+    "estiloMusical": "Funk",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Cinema",
+      "Balada",
+      "Rolê em Casa"
+    ],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais",
+      "Amizades"
+    ]
+  },
+  {
+    "id": 95,
+    "nome": "Elisa Costa",
+    "curso": "Medicina",
+    "semestre": 8,
+    "tempoFormatura": 5.3,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Pesquisa Acadêmica",
+      "Empreendedorismo"
+    ],
+    "hobbies": [
+      "Fotografia",
+      "Culinária"
+    ],
+    "esportes": [
+      "Futebol"
+    ],
+    "estiloMusical": "Funk",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Praia",
+      "Cinema"
+    ],
+    "tipoConexoesDesejadas": [
+      "Amizades",
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 96,
+    "nome": "Kamilly Carvalho",
+    "curso": "Medicina",
+    "semestre": 5,
+    "tempoFormatura": 3.6,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Consultoria",
+      "Startups"
+    ],
+    "hobbies": [
+      "Culinária",
+      "Artesanato",
+      "Filmes"
+    ],
+    "esportes": [
+      "Pilates",
+      "Natação"
+    ],
+    "estiloMusical": "Pop",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Parque",
+      "Balada",
+      "Rolê em Casa"
+    ],
+    "tipoConexoesDesejadas": [
+      "Amizades"
+    ]
+  },
+  {
+    "id": 97,
+    "nome": "Isabelly Lima",
+    "curso": "Engenharia da Computação",
+    "semestre": 7,
+    "tempoFormatura": 5.8,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Startups",
+      "Concursos Públicos",
+      "ONGs",
+      "Freelancer"
+    ],
+    "hobbies": [
+      "Leitura",
+      "Dança"
+    ],
+    "esportes": [
+      "Yoga"
+    ],
+    "estiloMusical": "Eletrônico",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Dates",
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 98,
+    "nome": "Leandro Caldeira",
+    "curso": "Direito",
+    "semestre": 5,
+    "tempoFormatura": 4.2,
+    "trabalha": false,
+    "interessesProfissionais": [
+      "Startups",
+      "Consultoria"
+    ],
+    "hobbies": [
+      "Filmes",
+      "Artesanato",
+      "Tocar Instrumento",
+      "Culinária"
+    ],
+    "esportes": [
+      "Pilates"
+    ],
+    "estiloMusical": "MPB",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Balada",
+      "Cinema"
+    ],
+    "tipoConexoesDesejadas": [
+      "Dates",
+      "Amizades",
+      "Oportunidades Profissionais"
+    ]
+  },
+  {
+    "id": 99,
+    "nome": "Marcelo Costa",
+    "curso": "Psicologia",
+    "semestre": 7,
+    "tempoFormatura": 4.3,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Consultoria",
+      "Setor Privado"
+    ],
+    "hobbies": [
+      "Séries",
+      "Dança",
+      "Tocar Instrumento",
+      "Leitura",
+      "Fotografia"
+    ],
+    "esportes": [
+      "Artes Marciais"
+    ],
+    "estiloMusical": "Pop",
+    "prefereSair": true,
+    "locaisSaida": [
+      "Rolê em Casa",
+      "Bar"
+    ],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais",
+      "Amizades"
+    ]
+  },
+  {
+    "id": 100,
+    "nome": "Eduardo da Rosa",
+    "curso": "Direito",
+    "semestre": 9,
+    "tempoFormatura": 5.4,
+    "trabalha": true,
+    "interessesProfissionais": [
+      "Estágio",
+      "Freelancer",
+      "ONGs",
+      "Concursos Públicos"
+    ],
+    "hobbies": [
+      "Culinária",
+      "Leitura",
+      "Tocar Instrumento",
+      "Filmes",
+      "Desenho"
+    ],
+    "esportes": [
+      "Tênis",
+      "Corrida"
+    ],
+    "estiloMusical": "Rock",
+    "prefereSair": false,
+    "locaisSaida": [],
+    "tipoConexoesDesejadas": [
+      "Oportunidades Profissionais",
+      "Amizades"
+    ]
+  }
+]

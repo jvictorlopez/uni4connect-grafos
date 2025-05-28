@@ -1,0 +1,5 @@
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+networkx==3.3
+python-louvain==0.16    # (se quiser community detection depois)
+faker==24.8.0           # só para o script de mock
