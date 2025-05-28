@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useRef, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -24,7 +24,59 @@ import {
   Zap,
 } from "lucide-react"
 
+/* ------------------------------------------------------------------ */
+/*  Tipos para o grafo e componente de visualização (placeholder)     */
+/* ------------------------------------------------------------------ */
+type Graph = {
+  nodes: { id: number; label: string; group: string }[]
+  links: { source: number; target: number; weight: number; reason: string }[]
+}
+
+function GraphRenderer({ data }: { data: Graph | null }) {
+  const ref = useRef<HTMLDivElement | null>(null)
+
+  /* lugar para integrar D3 */
+  useEffect(() => {
+    if (!data || !ref.current) return
+    // TODO: renderizar grafo com D3 ou react-force-graph
+  }, [data])
+
+  if (!data) {
+    return (
+      <div className="border-2 border-dashed border-gray-300 rounded-lg p-8 text-center bg-gray-50 min-h-[400px] flex flex-col items-center justify-center">
+        <Network className="w-16 h-16 text-gray-400 mb-4" />
+        <h3 className="text-lg font-semibold text-gray-600 mb-2">
+          Sua rede aparecerá aqui após o envio dos dados
+        </h3>
+        <p className="text-gray-500 mb-4 max-w-md">
+          O grafo interativo será renderizado usando D3.js, mostrando suas conexões baseadas em similaridade
+          de interesses, curso e objetivos.
+        </p>
+        <div className="text-xs text-gray-400 bg-white px-3 py-1 rounded border">
+          🔧 Integração D3.js: implementar em <code>GraphRenderer</code>
+        </div>
+      </div>
+    )
+  }
+
+  return (
+    <div ref={ref} className="border rounded-lg bg-gray-50 p-4">
+      <h4 className="font-semibold text-gray-700 mb-2">Resumo do Grafo</h4>
+      <p className="text-sm text-gray-600 mb-4">
+        Nós: <strong>{data.nodes.length}</strong> – Arestas: <strong>{data.links.length}</strong>
+      </p>
+      <pre className="text-xs overflow-auto bg-white p-2 border rounded max-h-[300px]">
+        {JSON.stringify(data, null, 2)}
+      </pre>
+    </div>
+  )
+}
+
+/* ------------------------------------------------------------------ */
+/*              Componente principal da página                        */
+/* ------------------------------------------------------------------ */
 export default function LinkedUniforPrototype() {
+  /* ------------------------ estado do formulário ------------------ */
   const [formData, setFormData] = useState({
     nomeCompleto: "",
     curso: "",
@@ -40,6 +92,11 @@ export default function LinkedUniforPrototype() {
     tipoConexoes: [] as string[],
   })
 
+  /* ------------------------ estado do grafo ----------------------- */
+  const [graphData, setGraphData] = useState<Graph | null>(null)
+  const [loading, setLoading] = useState(false)
+
+  /* ------------------------ listas fixas -------------------------- */
   const cursos = [
     "Administração",
     "Arquitetura e Urbanismo",
@@ -120,6 +177,7 @@ export default function LinkedUniforPrototype() {
     "Teatro",
   ]
 
+  /* -------------------- helper para multiselect ------------------ */
   const handleMultiSelect = (field: string, value: string) => {
     setFormData((prev) => ({
       ...prev,
@@ -129,6 +187,28 @@ export default function LinkedUniforPrototype() {
     }))
   }
 
+  /* -------------------- envio ao backend ------------------------- */
+  const handleSubmit = async () => {
+    try {
+      setLoading(true)
+      setGraphData(null)
+      const res = await fetch("http://localhost:8000/submeter-perfil", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      })
+      if (!res.ok) throw new Error(await res.text())
+      const data = await res.json()
+      setGraphData(data)
+    } catch (err: any) {
+      console.error(err)
+      alert("Erro ao gerar rede: " + err.message)
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  /* --------------------------- JSX ------------------------------- */
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
       {/* Header */}
@@ -154,7 +234,7 @@ export default function LinkedUniforPrototype() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          {/* Seção 1: Formulário de Cadastro */}
+          {/* ----------------- FORMULÁRIO ----------------- */}
           <div className="space-y-6">
             <Card className="shadow-lg border-0 bg-white/80 backdrop-blur">
               <CardHeader className="bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-t-lg">
@@ -166,8 +246,11 @@ export default function LinkedUniforPrototype() {
                   Preencha suas informações para encontrar conexões inteligentes
                 </CardDescription>
               </CardHeader>
+
               <CardContent className="p-6 space-y-6">
-                {/* Informações Básicas */}
+                {/* Informações Acadêmicas */}
+                {/* (todo o bloco segue igual ao original) */}
+                {/* ------------------------------------------------------------------ */}
                 <div className="space-y-4">
                   <h3 className="text-lg font-semibold text-gray-900 flex items-center">
                     <BookOpen className="w-5 h-5 mr-2 text-blue-600" />
@@ -244,6 +327,7 @@ export default function LinkedUniforPrototype() {
                 <Separator />
 
                 {/* Situação Profissional */}
+                {/* (mantido igual) */}
                 <div className="space-y-4">
                   <h3 className="text-lg font-semibold text-gray-900 flex items-center">
                     <Briefcase className="w-5 h-5 mr-2 text-green-600" />
@@ -282,12 +366,14 @@ export default function LinkedUniforPrototype() {
                 <Separator />
 
                 {/* Interesses Pessoais */}
+                {/* (mantido igual: hobbies, esportes, música) */}
                 <div className="space-y-4">
                   <h3 className="text-lg font-semibold text-gray-900 flex items-center">
                     <Coffee className="w-5 h-5 mr-2 text-orange-600" />
                     Interesses Pessoais
                   </h3>
 
+                  {/* Hobbies */}
                   <div className="space-y-2">
                     <Label>Hobbies</Label>
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
@@ -306,6 +392,7 @@ export default function LinkedUniforPrototype() {
                     </div>
                   </div>
 
+                  {/* Esportes */}
                   <div className="space-y-2">
                     <Label className="flex items-center">
                       <Dumbbell className="w-4 h-4 mr-2" />
@@ -327,6 +414,7 @@ export default function LinkedUniforPrototype() {
                     </div>
                   </div>
 
+                  {/* Música */}
                   <div className="space-y-2">
                     <Label className="flex items-center">
                       <Music className="w-4 h-4 mr-2" />
@@ -352,6 +440,7 @@ export default function LinkedUniforPrototype() {
                 <Separator />
 
                 {/* Estilo de Socialização */}
+                {/* (mantido igual) */}
                 <div className="space-y-4">
                   <h3 className="text-lg font-semibold text-gray-900 flex items-center">
                     <MapPin className="w-5 h-5 mr-2 text-purple-600" />
@@ -404,15 +493,26 @@ export default function LinkedUniforPrototype() {
                   </div>
                 </div>
 
-                <Button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
-                  <Zap className="w-4 h-4 mr-2" />
-                  Gerar Minha Rede de Conexões
+                {/* Botão de enviar */}
+                <Button
+                  onClick={handleSubmit}
+                  disabled={loading}
+                  className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700"
+                >
+                  {loading ? (
+                    <span className="animate-pulse">Gerando...</span>
+                  ) : (
+                    <>
+                      <Zap className="w-4 h-4 mr-2" />
+                      Gerar Minha Rede de Conexões
+                    </>
+                  )}
                 </Button>
               </CardContent>
             </Card>
           </div>
 
-          {/* Seção 2: Visualização do Grafo */}
+          {/* ----------------- GRAFO ----------------- */}
           <div className="space-y-6">
             <Card className="shadow-lg border-0 bg-white/80 backdrop-blur h-full">
               <CardHeader className="bg-gradient-to-r from-green-600 to-blue-600 text-white rounded-t-lg">
@@ -424,6 +524,7 @@ export default function LinkedUniforPrototype() {
                   Visualização interativa baseada em similaridade
                 </CardDescription>
               </CardHeader>
+
               <CardContent className="p-6">
                 {/* Filtros de Visualização */}
                 <div className="mb-6">
@@ -440,21 +541,8 @@ export default function LinkedUniforPrototype() {
                   </div>
                 </div>
 
-                {/* Área do Grafo - Placeholder para D3.js */}
-                <div className="border-2 border-dashed border-gray-300 rounded-lg p-8 text-center bg-gray-50 min-h-[400px] flex flex-col items-center justify-center">
-                  <Network className="w-16 h-16 text-gray-400 mb-4" />
-                  <h3 className="text-lg font-semibold text-gray-600 mb-2">
-                    Sua rede aparecerá aqui após o envio dos dados
-                  </h3>
-                  <p className="text-gray-500 mb-4 max-w-md">
-                    O grafo interativo será renderizado usando D3.js, mostrando suas conexões baseadas em similaridade
-                    de interesses, curso e objetivos.
-                  </p>
-                  <div className="text-xs text-gray-400 bg-white px-3 py-1 rounded border">
-                    {/* Comentário técnico para integração futura */}🔧 Integração D3.js: fetch('/api/graph-data') →
-                    renderGraph(data)
-                  </div>
-                </div>
+                {/* Renderização / placeholder do grafo */}
+                <GraphRenderer data={graphData} />
 
                 {/* Legenda */}
                 <div className="mt-6">
@@ -479,7 +567,7 @@ export default function LinkedUniforPrototype() {
                   </div>
                 </div>
 
-                {/* Estatísticas Futuras */}
+                {/* Estatísticas futuras */}
                 <div className="mt-6 grid grid-cols-3 gap-4 text-center">
                   <div className="bg-blue-50 p-3 rounded-lg">
                     <div className="text-2xl font-bold text-blue-600">--</div>
@@ -496,8 +584,7 @@ export default function LinkedUniforPrototype() {
                 </div>
 
                 <div className="mt-4 text-xs text-gray-400 text-center bg-gray-50 p-2 rounded">
-                  {/* Comentários técnicos para desenvolvimento futuro */}🚀 Backend: Python + NetworkX | Algoritmos:
-                  Louvain, Centralidade | API: REST endpoints
+                  🚀 Backend: Python + NetworkX | Algoritmos: Louvain, Centralidade | API: REST endpoints
                 </div>
               </CardContent>
             </Card>
